@@ -1,19 +1,20 @@
 
 # Real-Time Expense Tracker
 
-A beginner-friendly, front-end-only expense tracking app built with HTML, CSS, and JavaScript, featuring real-time data visualization using Chart.js and state persistence via `localStorage`.
+ front-end-only expense tracking app built with HTML, CSS, and JavaScript, featuring real-time data visualization using Chart.js and state persistence via `localStorage`.
 
-## 🚀 Features
+## 🌐 Live Demo
+👉 [View Live on Netlify](jolly-parfait-661f0a.netlify.app) _(Replace this with your actual link)_
 
-- **Add & Delete Expenses**: Simple form to log expenses with name, amount, and category.
-- **Real-Time Chart**: Doughnut chart updates instantly as expenses are added or removed.
-- **Persistent Storage**: All data is saved in browser `localStorage` to survive page reloads.
-- **Responsive UI**: Mobile-friendly design using CSS Flexbox and media queries.
-- **Dark Mode Toggle**: Switch between light and dark themes; preference saved in `localStorage`.
-- **CI Linting**: Automated HTML/CSS/JS linting via GitHub Actions.
-- **Deployable**: Ready for GitHub Pages deployment.
+## ✨ Features
 
-## 🛠️ Installation & Setup
+- 📌 Add and delete expenses
+- 📊 Real-time doughnut chart with Chart.js
+- 💾 Automatically saves data in your browser (localStorage)
+- 🌙 Toggle between Light and Dark mode
+- 📱 Fully responsive design for mobile and desktop
+
+## 🛠 How to Run Locally
 
 1. **Clone the repository**
    ```bash
@@ -21,52 +22,37 @@ A beginner-friendly, front-end-only expense tracking app built with HTML, CSS, a
    cd expense-tracker
    ```
 
-2. **Open in browser**
-   - Double-click `index.html`, or
-   - Use VS Code Live Server extension (`Go Live`) to launch a local dev server.
+2. **Open the app**
+   - Just open the `index.html` file in any browser
+   - Or use VS Code's Live Server extension for local testing
 
-3. **Interact**
-   - Add an expense (name, amount, category) and click **Add**.
-   - Watch the chart and total update in real time.
-   - Toggle dark mode using the switch in the top.
+## 🧪 How to Use
 
-## 📂 File Structure
+- Fill in the expense name, amount, and category
+- Click **Add** to log the expense
+- View your total and category breakdown in the chart
+- Click the ✕ button to remove any item
+- Use the toggle to switch between Dark and Light mode
+
+## 📂 Project Structure
 
 ```
 expense-tracker/
-├── index.html           # Main HTML structure
-├── styles.css           # Styling and responsive rules
-├── app.js               # Core JavaScript logic
+├── index.html        # Main HTML structure
+├── styles.css        # All styling
+├── app.js            # JavaScript logic and chart rendering
 └── .github/
     └── workflows/
-        └── ci.yml       # GitHub Actions linting workflow
-``` 
+        └── ci.yml    # GitHub Actions CI setup (optional)
+```
 
-## 📊 Usage Details
+## 🌍 Deployment
 
-- **Adding an Expense**: Fill in the form and press **Add**. The list, chart, and total will update instantly.
-- **Deleting an Expense**: Click the ✕ button next to an entry.
-- **Dark Mode**: Toggle the switch; your preference is saved in `localStorage`.
-
-## 📦 Deployment
-
-1. Push to GitHub:
-   ```bash
-   git add .
-   git commit -m "Add expense tracker"
-   git push origin main
-   ```
-
-2. Enable GitHub Pages:
-   - Go to **Settings → Pages** in your repo.
-   - Select **main** branch and **root** folder.
-   - Save and visit `https://keval88.github.io/expense-tracker/`.
-
-## 🔧 Customization
-
-- **Add Categories**: Edit the `<select>` in `index.html` and update CSS if needed.
-- **Chart Options**: Tweak `renderChart()` in `app.js` to adjust chart type, animation, or legends.
-- **Styling**: Modify `styles.css` to change colors, spacing, or typography.
+This project is hosted on [Netlify](jolly-parfait-661f0a.netlify.app):
+1. Push your code to GitHub
+2. Sign in to Netlify and link your GitHub repo
+3. Set build settings (or leave blank for static site)
+4. Click **Deploy Site**
+5. Copy and share the Netlify URL
 
 ---
-
