@@ -4,7 +4,7 @@
  front-end-only expense tracking app built with HTML, CSS, and JavaScript, featuring real-time data visualization using Chart.js and state persistence via `localStorage`.
 
 ## 🌐 Live Demo
-👉 jolly-parfait-661f0a.netlify.app
+👉 [View Live on Netlify](https://jolly-parfait-661f0a.netlify.app)
 
 ## ✨ Features
 
@@ -48,7 +48,7 @@ expense-tracker/
 
 ## 🌍 Deployment
 
-This project is hosted on jolly-parfait-661f0a.netlify.app:
+This project is hosted on [Netlify](https://www.netlify.com/):
 1. Push your code to GitHub
 2. Sign in to Netlify and link your GitHub repo
 3. Set build settings (or leave blank for static site)
